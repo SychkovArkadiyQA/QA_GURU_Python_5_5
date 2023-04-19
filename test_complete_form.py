@@ -7,6 +7,8 @@ def     test_complete_form():
         browser.config.base_url = 'https://demoqa.com'
 
 
+
+
         browser.open('/automation-practice-form')
 
         browser.element('#firstName').type('Papa').click()
