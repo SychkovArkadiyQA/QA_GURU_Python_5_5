@@ -1,8 +1,5 @@
 import os
-
 from selene import browser, have, be
-
-
 
 def     test_complete_form():
         browser.config.window_width = 1400
